@@ -1,0 +1,15 @@
+[package]
+authors = ["Vlad Frolov <frolvlad@gmail.com>"]
+name = "lines-generator"
+version = "0.1.0"
+
+[dependencies]
+log = "0.4"
+rand = "0.4.2"
+
+[dependencies.env_logger]
+default_features = false
+version = "0.5"
+
+[dependencies.lines-game-engine]
+path = "../lines-game-engine/"

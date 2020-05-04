@@ -1,0 +1,11 @@
+[package]
+authors = ["Vlad Frolov <frolvlad@gmail.com>"]
+name = "lines-checker"
+version = "0.1.0"
+[dependencies]
+env_logger = "*"
+failure = "*"
+log = "*"
+
+[dependencies.lines-game-engine]
+path = "../lines-game-engine/"

@@ -1,0 +1,10 @@
+[package]
+authors = ["Vlad Frolov <frolvlad@gmail.com>"]
+name = "lines-game-engine"
+version = "0.1.0"
+[dependencies]
+derive_more = "*"
+failure = "0.1.1"
+
+[dev-dependencies]
+quickcheck = "0.6.2"
